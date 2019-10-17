@@ -1,0 +1,153 @@
+.main-drawing{
+    position:relative;
+    margin:100px auto;
+    height:400px;
+    width:600px ;
+    border:2px solid black;
+    background-color:rgb(240, 242, 245);
+    perspective: 15000px;
+    transition:all 2s ease-in-out;
+}
+.main-drawing:hover{
+    transform: rotateY(255deg);
+    border-radius: 50%;
+}
+.sun{
+    height:85px;
+    width:85px;
+    border-radius: 50%;
+    border:0.25px solid black;
+    background-color: rgb(255, 252, 66);
+    position: absolute;
+    top:15px;
+    left:75px;
+}
+
+
+.road{
+    position:absolute;
+    top:300px;
+    
+    height:100px;
+    width:100%;
+    border:1px solid black;
+}
+.road-1{
+    width:40%;
+    height: 100px;
+    background-color: lightgreen;
+    border:1px solid black;
+    display:inline-block;
+}
+.road-2{
+    width:20%;
+    background-color: brown;
+    height:100px;
+    display:inline-block;
+    border:1px solid black;
+}
+.road-3{
+    width:37%;
+    background-color: lightgreen;
+    display:inline-block;
+    height:100px;
+    border:1.5px solid black;
+}
+
+.tree{
+    position:absolute;
+    top:50px;
+    left:450px;
+    height:250px;
+    width:120px;
+    
+}
+.leaves{
+    height:150px;
+    width:95%;
+    border-radius: 40%;
+    border:1px solid black;
+    background-color: green;
+    z-index: 30;
+}
+.trunk{
+    height:105px;
+    border:1px solid black;
+    background-color: rgb(201, 50, 50);
+    width:60px;
+    margin:auto;
+    z-index: 1;
+    position:absolute;
+    bottom:0px;
+    left:26px;
+}
+.house-position{
+    position:absolute;
+    top:98px;
+    left:120px;
+}
+
+.house{
+    height:200px;
+    width:300px;
+    
+}
+
+.roof{
+    height:50px;
+    width:100%;
+    background-color: rgb(139, 0, 0);
+    clip-path: polygon(15% 0, 85% 0,100% 100%,0 100%);
+}
+
+.midbox{
+    height:148px;
+    width:80%;
+    margin:auto;
+    border:1px solid black;
+    background-color: bisque;
+}
+
+.window
+{
+    height:35px;
+    width:55px;
+    border:2px solid rgb(45, 78, 148);
+    background-color:rgb(0, 204, 255);
+    display:inline-block;
+}
+
+.upperfloor{
+    height:70px;
+    width:100%;
+}
+.window-1{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.window-2{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.groundfloor{
+    height: 76px;
+    width:100%;
+}
+.window-3{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.door{
+    height:75px;
+    width:45px;
+    background-color: brown;
+    display:inline-block;
+    margin-left: 20px;
+}
+.window-4{
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+
