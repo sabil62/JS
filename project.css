@@ -1,0 +1,9 @@
+body{
+    background-color: azure;
+}
+
+.nepal-map{
+    height:500px;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.301);
+    border-radius: 9px;
+}
