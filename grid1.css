@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-gap: 15px;
+    padding:15px;
+    justify-items: center;
+    
+    grid-auto-rows: minmax(150px ,auto);
+}
+.container > div{
+    background-color: lightgray;
+    padding: 14px;
+    /* background-image: linear-gradient(green,lightyellow) */
+}
+.container >div:nth-child(odd){
+    background-color:rgb(131, 131, 131);
+}
+.box6{
+    background-color: rgb(82, 156, 156);
+    border:1px solid black;
+    background-image: linear-gradient(red,black);
+}
+.box10{
+    background-image: linear-gradient(rgb(2, 2, 207),rgb(90, 90, 204));
+    align-self: start;
+    justify-self: start;
+}
+.box11{
+    background-image: linear-gradient(green,yellow);
+    justify-self: start;
+}
+.box12{
+    background-image: linear-gradient(rgb(243, 158, 0),rgb(231, 196, 129));
+    align-self:end;
+}

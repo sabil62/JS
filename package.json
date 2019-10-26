@@ -1,0 +1,14 @@
+{
+  "name": "02-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass SASS/main.scss CSS/first.css -w "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.9.3"
+  }
+}

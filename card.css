@@ -1,0 +1,35 @@
+
+.card-section{
+    margin:59px 500px;
+}
+.card{
+    position: relative;
+    
+    perspective: 15000px;
+}
+.card-side{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 450px;
+    width:295px;
+    border:1px solid rgba(0, 0, 0, 0.363);
+    backface-visibility: hidden;
+    transition: all 2s ease-in-out;
+    box-shadow: 2px 16px 14px rgba(0, 0, 0, 0.322);
+    border-radius: 7px;
+   
+}
+.card-front{
+    background-color: rgb(250, 171, 68);
+}
+.card-back{
+    background-color: rgba(165, 42, 42, 0.856);
+    transform:rotateY(180deg);    
+}
+.card:hover .card-front{
+   transform:rotateY(180deg);
+}
+.card:hover .card-back{
+    transform:rotateY(0deg);
+}
