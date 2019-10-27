@@ -1,0 +1,44 @@
+.card{
+    border:1px solid black;
+   width: 400px;
+    min-height: 500px;
+    background-color: rgba(231, 255, 96, 0.603);
+}
+
+.form{
+    margin-top: 32px;
+    margin-bottom: 35px;
+    border-bottom:1px solid black;
+}
+.input-text{
+    width: 76%;
+    margin-left: 22px;
+    padding:7px;
+}
+.submiter{
+    height: 35px;
+    width:90px;
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-bottom: 20px;
+}
+.clear{
+   
+    padding:8px 19px;
+    background-color: black;
+    color: red;
+    display: inline-block;
+    margin-left: 290px;
+}
+.item{
+    border:1px dashed black;
+    margin-top: 10px;
+}
+.link{
+    font-size: 28px;
+    margin-left: 170px;
+}
+.link:hover{
+    color:red;
+}
+
