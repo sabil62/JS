@@ -1,0 +1,64 @@
+.card{
+    border:1px solid black;
+    height: 650px;
+    width: 500px;
+    border-radius: 13px;
+    box-shadow: 0 16px 16px rgba(0, 0, 0, 0.322);
+    background-image: linear-gradient(to right,rgb(248, 220, 129),rgb(245, 245, 60),rgb(221, 221, 137));
+}
+.form-1{
+    border-bottom: 1px solid black;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.amount-required{
+    padding:7px 26px;
+    margin-left: 74px;
+    width:60%;
+    background-color: rgba(255, 15, 15, 0.658);
+}
+.time{
+    padding: 7px 26px;
+    margin-left: 74px;
+    margin-bottom: 12px;
+    width:60%;
+    background-color: rgba(255, 15, 15, 0.658);
+}
+.submiter{
+    padding:13px 19px;
+    margin-left: 199px;
+    color:red;
+    background-color: rgba(7, 6, 6, 0.938);
+}
+body{
+    background-color: wheat;
+}
+
+.display-area{
+    margin-top: 45px;
+}
+
+
+
+.display-leftside{
+    width:180px;
+    height: 80px;
+    border:1px solid rgba(0, 0, 0, 0.226);
+    color:rgb(82, 82, 82);
+    background-color: rgba(128, 128, 128, 0.418);
+    padding: 8px 18px;
+}
+.display-rightside{
+    width:250px;
+    background-color: rgb(255, 224, 203);
+    padding: 8px 18px;
+    margin-bottom: 20px;
+}
+.errorh3{
+    padding:14px 20px;
+    color:darkred;
+    border:1px solid red;
+    text-align: center;
+    font-size: 24px;
+    background-color: rgba(250, 61, 61, 0.87);
+}

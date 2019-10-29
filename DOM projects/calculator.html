@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+    <div class="card">
+        <h1 align="center" class="heading">Calculator</h1>
+        <form class="form-1">
+            <input type="number" placeholder="amount-required" class="amount-required"><br><br>
+            <input type="number" placeholder="time" class="time">
+            <br><br>
+            <input type="submit" class="submiter">
+            <br><br>
+        </form>
+        <div class="display-area">
+               
+          <span class="display-leftside">Total Payment</span>
+             <input type="text" class="display-rightside display-total" id="total"
+             placeholder="here">
+
+            <br>
+
+            <span class="display-leftside">Monthly Payment</span>
+                
+                <input type="text" class="display-rightside display-monthly" id="monthly">
+           
+        </div>
+    </div>
+    
+<!--_______________Initially display area is hidden only displayed during onclick or submition of form-->
+
+    <style>
+        .display-area{
+            display: none;
+        }
+    </style>
+
+    <script src="calculator.js"></script>
+</body>
+</html>

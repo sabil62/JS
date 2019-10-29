@@ -1,0 +1,39 @@
+.card{
+    border:1px solid black;
+    height: 420px;
+    width: 400px;
+    margin:25px auto;
+    border-radius: 17px;
+    box-shadow: 0 16px 16px rgba(0, 0, 0, 0.322);
+    background-image: linear-gradient(to right,rgb(248, 220, 129),rgb(201, 245, 150));
+}
+.guessInput{
+    width:60%;
+    padding:7px 12px;
+    margin-left: 5%;
+    background-color: rgba(255, 210, 196, 0.425);
+}
+.submiter{
+    width:20%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgb(29, 42, 53);
+    background-image: linear-gradient(to bottom,yellow,rgba(255, 230, 0, 0.726),rgb(255, 153, 0));  
+}
+.heading
+{
+    margin-top: 30px;
+    margin-bottom: 38px;
+}
+.min, .max {
+    font-size: 19px;
+    font-weight: 600;
+    color:rgb(1, 56, 1);
+}
+.message{
+    font-size: 18px;
+    margin-top: 18px;
+}
+.secmessage{
+    margin-top:150px;
+}
