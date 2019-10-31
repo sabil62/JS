@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(181, 224, 224);
+}
+.card{
+    border:1px solid black;
+    min-height: 600px;
+    width: 500px;
+    border-radius: 13px;
+    box-shadow: 0 16px 16px rgba(0, 0, 0, 0.322);
+    background-image: linear-gradient(to right,rgb(248, 220, 129),rgb(245, 245, 60),rgb(221, 221, 137));
+    margin-left: 32%;
+}
+.form-1{
+    border-bottom: 1px solid black;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.inputBookName{
+    padding:7px 22px;
+    margin-left: 63px;
+    width:50%;
+    background-color: rgba(255, 15, 15, 0.658);
+}
+.inputAuthor{
+    padding: 7px 22px;
+    margin-left: 80px;
+    margin-bottom: 12px;
+    width:50%;
+    background-color: rgba(255, 15, 15, 0.658);
+}
+.submiter{
+    padding:13px 19px;
+    margin-left: 199px;
+    color:red;
+    background-color: rgba(7, 6, 6, 0.938);
+    margin-bottom: 35px;
+}
+.author-label, .bookname-label{
+    padding: 7px 22px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    background-color: rgba(124, 7, 7, 0.404);
+    color:rgb(141, 3, 3);
+}
+.delete:hover{
+    color: rgb(255, 62, 62);
+    font-size: 21px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.493);
+}
+
+.alert-pop{
+    text-align: center;
+    padding:16px 0; 
+}
